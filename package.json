@@ -1,0 +1,36 @@
+{
+  "name": "mcp-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "weather": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuroponzu/mcp-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuroponzu/mcp-sample/issues"
+  },
+  "homepage": "https://github.com/kuroponzu/mcp-sample#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3"
+  }
+}
